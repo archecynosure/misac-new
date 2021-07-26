@@ -126,11 +126,7 @@ img.medium {
 .price {
   font-size: 2rem;
 }
-/* Description*/
 
-.description {
- 
-}
 /* Rating */
 
 .rating span {
@@ -143,7 +139,7 @@ img.medium {
 }
 
 .landing {
-  background-color: #fff ;
+  background-color: #fdd8ce ;
   color: #515E63;
   width: 80vw;
   margin: 3rem auto 3rem auto;
