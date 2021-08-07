@@ -14,8 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
-  background-image: url("https://www.transparenttextures.com/patterns/vichy.png");
-}
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");}
 
 #root {
   height: 100%;
@@ -123,6 +122,12 @@ img.medium {
   color: #515E63;
 }
 
+.card-body h2 {
+  font-size: medium;
+}
+.card-body span {
+  font-size: small;
+}
 .price {
   font-size: 2rem;
 }
@@ -139,30 +144,57 @@ img.medium {
 }
 
 .landing {
-  background-color: #fdd8ce ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  background-image: linear-gradient(to top, #fff, #fdd8ce );
   color: #515E63;
   width: 80vw;
   margin: 3rem auto 3rem auto;
-  align-items: center;
-  text-align: center;
   padding: 1rem 0 5rem 0;
-  display: flex;
-  flex-direction: column;
 }
 
-.landing button {
-  background-image: linear-gradient(to top, #515E63, #57837B);
-  color: #fff;
-  border-radius: 1rem;
-  border: none;
-  padding: 1rem;
-  max-width: 30%;
-  margin-bottom: 3rem;
-  margin-top: 2rem ;
-
+.landing h1 {
+  font-size: larger;
 }
 
 .landing input{
   border: 0.1rem #6f7d83 solid;
   border-radius: 00.5rem;
 }
+button {
+  background-image: linear-gradient(to top, #515E63, #57837B);
+  color: #fff !important;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem;
+  max-width: 30%;
+}
+
+
+
+.buttons {
+  display: flex;
+  max-width: 80vw;
+  justify-content: space-evenly;
+  margin: 3rem auto;
+  flex-wrap: wrap;
+}
+
+button:hover {
+  border: 0.1px solid #000;
+  background-color: #fdd8ce;
+  background-image: none;
+  color: #000 !important;
+  padding: 0.9rem;
+}
+
+.kupi {
+position: relative;
+left: 20rem; 
+font-weight: bold; 
+}
+
+
